@@ -3,10 +3,8 @@
 ![GitHub License](https://img.shields.io/github/license/robertbradl/tmux-ssh-picker)
 
 An over-engineered approach to me being to lazy to type out ssh commands.
-The plugin was heavily inspired by
-![Static Badge](https://img.shields.io/badge/Omer_Hamerman-blue?style=flat&logo=github&labelColor=black&color=blue&link=https%3A%2F%2Fgithub.com%2Fomerxx%2F)
-and his tmux plugin
-![Static Badge](https://img.shields.io/badge/tmux--sessionx-white?logo=github&labelColor=black&link=https%3A%2F%2Fgithub.com%2Fomerxx%2Ftmux-sessionx)
+The plugin was heavily inspired by [omerxx](https://github.com/omerxx)
+and his tmux plugin [tmux-sessionx](https://github.cpm/omerxx/tmux-sessionx)
 
 ![image](./img/picker-preview.png)
 
