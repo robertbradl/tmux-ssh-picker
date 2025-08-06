@@ -42,10 +42,10 @@ selection=$(
 
 # Split values
 raw_line=$(echo "$selection" | cut -f2)
-window=$(echo "$selection" | head -n 1 | awk -F ':::' '{print $2}')
-user=$(echo "$selection" | head -n 1 | awk -F ':::' '{print $3}')
-host=$(echo "$selection" | head -n 1 | awk -F ':::' '{print $4}')
-key=$(echo "$selection" | head -n 1 | awk -F ':::' '{print $5}')
+window=$(echo "$raw_line" | head -n 1 | awk -F ':::' '{print $2}')
+user=$(echo "$raw_line" | head -n 1 | awk -F ':::' '{print $3}')
+host=$(echo "$raw_line" | head -n 1 | awk -F ':::' '{print $4}')
+key=$(echo "$raw_line" | head -n 1 | awk -F ':::' '{print $5}')
 
 # Build command
 if [ -n "$key" ]; then
