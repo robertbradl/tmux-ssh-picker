@@ -1,6 +1,7 @@
 # Tmux SSH-Picker
 
 An over-engineered approach to me being to lazy to type out ssh commands.
+The plugin was heavily inspired by [@Omer Hamermans](https://github.com/omerxx) [SessionX](https://github.com/omerxx/tmux-sessionx).
 
 ![image](./img/picker-preview.png)
 
