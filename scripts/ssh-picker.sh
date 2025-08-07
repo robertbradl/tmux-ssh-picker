@@ -27,7 +27,7 @@ selection=$(
       --with-nth=1 \
       --delimiter "\t" \
       --border-label="[ Server Selection ]" \
-      --border=sharp \
+      --border=rounded \
       --highlight-line \
       --cycle \
       --preview="echo '{}' | cut -f2 | awk -F ':::' '{ printf \"Window: %s\nHost: %s\nUser: %s\nKey: %s\n\", \$2, \$4, \$3, \$5 }'" \
