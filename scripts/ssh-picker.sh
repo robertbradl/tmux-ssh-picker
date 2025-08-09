@@ -32,8 +32,8 @@ selection=$(
       --cycle \
       --preview="echo '{}' | cut -f2 | awk -F ':::' '{ printf \"Window: %s\nHost: %s\nUser: %s\nKey: %s\n\", \$2, \$4, \$3, \$5 }'" \
       --preview-window=up \
-      --preview-label=" Profile " \
-      --list-label=" List " \
+      --preview-label="[ Profile ]" \
+      --list-label="[ List ]" \
       --pointer=">"
 )
 
